@@ -1,6 +1,12 @@
 channels:
   targets:
-    - [poehlmann, main]
+  - [poehlmann, main]
 
 github:
-  user_or_org: 'ap--'
+  user_or_org: ap--
+travis:
+  secure:
+    BINSTAR_TOKEN: TZv+EbxMj8QvY2v2R6fdsd4WrwRnGWgcoeB6XxwhJWkS9cFGI2IkyNbSIinI/5V1RjNeAzwLBAJbhVjdo1DpwTGf9vSSt1dfOL0q1no4iUK1g7yYFsnEOAgE01glRcYGTNmepQ45ZxJs9gEbad1Gsud6R1MSh5LFe0jov7N/O/dDKBBSw6moYFDUR2+82KLgEu1xSVSW4NHUOMxUrzSodReAoaJ7vibxc9GBaCBYTfucRTe7CWDIZ+hlt95RWvX1Kda/8PMjAE30L+ENjXucNUW0YLaUNqq2z2HGEJcQd3F2QLuFvR39pvqHBDmGCV8XyDHoAIyfQXM6d+l6t41FmJ/+qRo2FL4SjnlBAJktxss4uql0soc9BqrNY/VzuXFaZlNqxUAQOWbr8IkYIaJ4u1infVzxWEz9lnHFIEKz4k1XklWiRs/+IfkchBZuvB+guvtCV63erYFOaraBvtUcb8xEdrSQIIXBXIC09SackTtcJ3mKQiDIXOiw7T8gCJTc/uBZpwAge5hDakx/Z8qDPekZXAfI3IJx0Ri+cMHGohIzZgEsHYuXlI7cPFSusIEL/F/mhdsDGw0vlIXRpFCf82uYf8trRqgtfZ9bUuZQFl2c2+7hvSEZl0/P/fGLWLzD0iQJ3iRRxaDJXHTpYNLg5NH5X1WVKCf7yDfuRBP3UWc=
+appveyor:
+  secure:
+    BINSTAR_TOKEN: ClCC8WNkoSVgJ6D8UvBuXW7i94Nz2/VSWvu4OxQ28Rm3f3JIVLsA/AwnZFFFyvmM
