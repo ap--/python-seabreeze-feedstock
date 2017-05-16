@@ -1,1 +1,6 @@
-[]
+channels:
+  targets:
+    - [poehlmann, main]
+
+github:
+  user_or_org: 'ap--'
