@@ -1,14 +1,15 @@
-# prepare the environment
+# download and compile libseabreeze
 cd extra/libseabreeze/SeaBreeze
 if [ "$(uname)" == "Darwin" ]; then
-    # osx: define install_name
-    OSX_EXTRA="install_name=${PREFIX}/lib/libseabreeze${SHLIB_EXT}"
+    echo "Platform: Mac"
+    make logger=0 install_name="${PREFIX}/lib/libseabreeze${SHLIB_EXT}" lib/libseabreeze${SHLIB_EXT}
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+    echo "Platform: Linux"
+    # we need libusb headers on circleci
+    yum install -y libusb-devel
+    make logger=0 lib/libseabreeze${SHLIB_EXT}
 fi
-
-# compile the library
-SB_ARCH=${ARCH} SB_DEBUG=0 make ${OSX_EXTRA} lib/libseabreeze${SHLIB_EXT}
-cp lib/libseabreeze${SHLIB_EXT} ${PREFIX}/lib
 cd ../../..
-
-# compile and install the python module
+cp extra/libseabreeze/SeaBreeze/lib/libseabreeze${SHLIB_EXT} ${PREFIX}/lib
+# the shared object should have been copied to "${PREFIX}/lib"
 python setup.py install --single-version-externally-managed --record record.txt
