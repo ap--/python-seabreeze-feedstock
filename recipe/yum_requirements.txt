@@ -1,0 +1,2 @@
+# Install libusb headers for linux builds
+libusb-devel
