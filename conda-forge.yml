@@ -1,6 +1,6 @@
 channels:
   targets:
-  - [poehlmann, main]
+  - [poehlmann, conda-forge]
 
 github:
   user_or_org: ap--
