@@ -20,7 +20,7 @@ requirements:
     - wheel
     - cython
     - setuptools_scm
-    - toolchain
+    - {{ compiler('cxx') }}
     - pkgconfig
     - libusb-compat  # [Linux]
     - pkg-config  # [Linux]
