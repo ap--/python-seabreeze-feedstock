@@ -1,6 +1,6 @@
 channels:
   targets:
-  - [poehlmann, conda-forge]
+  - [poehlmann, main]
 provider:
   linux: circle
   osx: travis
