@@ -22,13 +22,13 @@ requirements:
     - setuptools_scm
     - {{ compiler('cxx') }}
     - pkgconfig
-    - libusb-compat  # [Linux]
-    - pkg-config  # [Linux]
+    - pkg-config
+    - libusb-compat  # [linux]
     - pytest-runner
   run:
     - python
     - numpy
-    - libusb-compat  # [Linux]
+    - libusb-compat  # [linux]
     - pyusb
     - future
     - enum34  # [py<34]
