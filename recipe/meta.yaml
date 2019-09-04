@@ -24,6 +24,7 @@ requirements:
     - pkgconfig
     - libusb-compat  # [Linux]
     - pkg-config  # [Linux]
+    - pytest-runner
   run:
     - python
     - numpy
@@ -33,6 +34,11 @@ requirements:
     - enum34  # [py<34]
 
 test:
+  require:
+    requires:
+      - pytest<5
+  commands:
+    - py.test .
   imports:
     - seabreeze
     - seabreeze.cseabreeze

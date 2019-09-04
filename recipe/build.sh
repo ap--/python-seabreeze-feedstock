@@ -1,1 +1,1 @@
-python -m pip install . --no-build-isolation -v
+python -m pip install .[pyseabreeze] --no-build-isolation -v
