@@ -1,1 +1,2 @@
-python -m pip install .[pyseabreeze] --no-build-isolation -v
+#!/usr/bin/env bash
+python setup.py install --single-version-externally-managed --record record.txt

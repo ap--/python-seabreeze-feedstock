@@ -22,7 +22,7 @@ requirements:
     - setuptools_scm
     - {{ compiler('cxx') }}
     - pkgconfig
-    - pkg-config
+    - pkg-config  # [not win]
     - libusb-compat  # [linux]
     - pytest-runner
   run:
@@ -32,6 +32,8 @@ requirements:
     - pyusb
     - future
     - enum34  # [py<34]
+  host:
+    - python
 
 test:
   require:
