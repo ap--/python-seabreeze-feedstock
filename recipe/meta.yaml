@@ -14,17 +14,7 @@ build:
 
 requirements:
   build:
-    - python
-    - pip
-    - setuptools
-    - wheel
-    - cython
-    - setuptools_scm
     - {{ compiler('cxx') }}
-    - pkgconfig
-    - pkg-config  # [not win]
-    - libusb-compat  # [linux]
-    - pytest-runner
   run:
     - python
     - numpy
@@ -34,6 +24,15 @@ requirements:
     - enum34  # [py<34]
   host:
     - python
+    - pip
+    - setuptools
+    - wheel
+    - cython
+    - setuptools_scm
+    - pkgconfig
+    - pkg-config  # [not win]
+    - libusb-compat  # [linux]
+    - pytest-runner
 
 test:
   require:
