@@ -1,5 +1,5 @@
 {% set name = "seabreeze" %}
-{% set version = "1.0.0rc2" %}
+{% set version = "1.0.0rc3" %}
 
 package:
   name: {{ name|lower }}
@@ -35,11 +35,10 @@ requirements:
     - pytest-runner
 
 test:
-  require:
-    requires:
-      - pytest<5
+  requires:
+    - pytest<5
   commands:
-    - py.test .
+    - "pytest"
   imports:
     - seabreeze
     - seabreeze.cseabreeze
