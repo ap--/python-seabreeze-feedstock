@@ -1,6 +1,6 @@
 channels:
   targets:
-  - ["poehlmann", "main"]
+  - [poehlmann, main]
 provider:
   linux: circle
   osx: travis

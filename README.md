@@ -92,24 +92,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_cxx_compilervs2008python2.7</td>
+              <td>win_c_compilervs2008cxx_compilervs2008python2.7</td>
               <td>
                 <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_cxx_compilervs2008python2.7" alt="variant">
+                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2008cxx_compilervs2008python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_cxx_compilervs2015python3.6</td>
+              <td>win_c_compilervs2015cxx_compilervs2015python3.6</td>
               <td>
                 <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_cxx_compilervs2015python3.6" alt="variant">
+                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_cxx_compilervs2015python3.7</td>
+              <td>win_c_compilervs2015cxx_compilervs2015python3.7</td>
               <td>
                 <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_cxx_compilervs2015python3.7" alt="variant">
+                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.7" alt="variant">
                 </a>
               </td>
             </tr>
