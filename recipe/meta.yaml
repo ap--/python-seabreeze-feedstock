@@ -14,6 +14,7 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}  # [win]
     - {{ compiler('cxx') }}
   run:
     - python
@@ -38,7 +39,9 @@ test:
   requires:
     - pytest<5
   commands:
-    - "pytest"
+    - "pytest tests"
+  source_files:
+    - tests
   imports:
     - seabreeze
     - seabreeze.cseabreeze
@@ -50,6 +53,8 @@ about:
   license_family: MIT
   license_file: LICENSE.md
   summary: 'Python module for Ocean Optics spectrometer'
+  dev_url: https://github.com/ap--/python-seabreeze
+  doc_url: https://python-seabreeze.readthedocs.io
 
 extra:
   recipe-maintainers:
