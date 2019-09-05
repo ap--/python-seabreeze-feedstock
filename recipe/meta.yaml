@@ -16,13 +16,6 @@ requirements:
   build:
     - {{ compiler('c') }}  # [win]
     - {{ compiler('cxx') }}
-  run:
-    - python
-    - numpy
-    - libusb-compat  # [linux]
-    - pyusb
-    - future
-    - enum34  # [py<34]
   host:
     - python
     - pip
@@ -34,6 +27,14 @@ requirements:
     - pkg-config  # [not win]
     - libusb-compat  # [linux]
     - pytest-runner
+  run:
+    - python
+    - numpy
+    - libusb  # [linux]
+    - libusb-compat  # [linux]
+    - pyusb
+    - future
+    - enum34  # [py<34]
 
 test:
   requires:
