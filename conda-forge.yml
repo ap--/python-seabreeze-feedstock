@@ -17,3 +17,5 @@ appveyor:
 azure:
   enabled: false
   force: false
+
+upload_on_branch: master
