@@ -1,5 +1,3 @@
 #!/bin/bash
 # undo conda-forge setting CI
-export CI=true
-
-"${PYTHON}" -m pip install . --no-deps --no-build-isolation -vv
+CI=1 "${PYTHON}" -m pip install . --no-deps --no-build-isolation -vv
