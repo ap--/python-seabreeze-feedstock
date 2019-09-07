@@ -18,22 +18,22 @@ Current build status
 <table><tr>
     <td>CircleCI</td>
     <td>
-      <a href="https://circleci.com/gh/conda-forge/python-seabreeze-feedstock">
-        <img alt="Linux" src="https://img.shields.io/circleci/project/github/conda-forge/python-seabreeze-feedstock/master.svg?label=Linux">
+      <a href="https://circleci.com/gh/ap--/python-seabreeze-feedstock">
+        <img alt="Linux" src="https://img.shields.io/circleci/project/github/ap--/python-seabreeze-feedstock/master.svg?label=Linux">
       </a>
     </td>
   </tr><tr>
     <td>Travis</td>
     <td>
-      <a href="https://travis-ci.org/conda-forge/python-seabreeze-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/conda-forge/python-seabreeze-feedstock/master.svg?label=macOS">
+      <a href="https://travis-ci.org/ap--/python-seabreeze-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/ap--/python-seabreeze-feedstock/master.svg?label=macOS">
       </a>
     </td>
   </tr><tr>
     <td>Appveyor</td>
     <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/python-seabreeze-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/python-seabreeze-feedstock/master.svg?label=Windows">
+      <a href="https://ci.appveyor.com/project/ap--/python-seabreeze-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/ap--/python-seabreeze-feedstock/master.svg?label=Windows">
       </a>
     </td>
   </tr>
@@ -86,7 +86,7 @@ opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `poehlmann` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `poehlmann` channel.
-Note that all branches in the conda-forge/seabreeze-feedstock are
+Note that all branches in the ap--/seabreeze-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.

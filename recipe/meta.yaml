@@ -1,21 +1,23 @@
 {% set name = "seabreeze" %}
-{% set version = "1.0.0rc3" %}
+{% set version = "1.0.0rc4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  git_url: https://github.com/ap--/python-seabreeze.git
-  git_rev: v{{ version }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f7c56793cc7dc71632e62bd9f8bb8f123c2741b8c509f13b5acd7a7bbc123108
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: "{{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv"
 
 requirements:
   build:
+    - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - pkg-config  # [not win]
   host:
     - python
     - pip
@@ -24,30 +26,28 @@ requirements:
     - cython
     - setuptools_scm
     - pkgconfig
-    - pkg-config  # [not win]
     - libusb-compat  # [linux]
     - pytest-runner
   run:
     - python
-    - {{ pin_compatible('numpy') }}
-    - libusb  # [linux]
     - libusb-compat  # [linux]
+    - numpy
     - pyusb
     - future
     - enum34  # [py<34]
 
 test:
-  requires:
-    - pytest<5
-    - mock
-  commands:
-    - "pytest tests"
-  source_files:
-    - tests
   imports:
     - seabreeze
     - seabreeze.cseabreeze
     - seabreeze.pyseabreeze
+  requires:
+    - pytest<5
+    - mock
+  source_files:
+    - tests
+  commands:
+    - "pytest -v tests"
 
 about:
   home: http://github.com/ap--/python-seabreeze
