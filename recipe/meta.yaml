@@ -46,8 +46,6 @@ test:
     - mock
   source_files:
     - tests
-  commands:
-    - "pytest -v tests"
 
 about:
   home: http://github.com/ap--/python-seabreeze
