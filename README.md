@@ -18,104 +18,23 @@ Current build status
 <table><tr>
     <td>CircleCI</td>
     <td>
-      <a href="https://circleci.com/gh/ap--/python-seabreeze-feedstock">
-        <img alt="Linux" src="https://img.shields.io/circleci/project/github/ap--/python-seabreeze-feedstock/master.svg?label=Linux">
+      <a href="https://circleci.com/gh/conda-forge/python-seabreeze-feedstock">
+        <img alt="Linux" src="https://img.shields.io/circleci/project/github/conda-forge/python-seabreeze-feedstock/master.svg?label=Linux">
       </a>
     </td>
   </tr><tr>
     <td>Travis</td>
     <td>
-      <a href="https://travis-ci.org/ap--/python-seabreeze-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/ap--/python-seabreeze-feedstock/master.svg?label=macOS">
+      <a href="https://travis-ci.org/conda-forge/python-seabreeze-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/conda-forge/python-seabreeze-feedstock/master.svg?label=macOS">
       </a>
     </td>
   </tr><tr>
     <td>Appveyor</td>
     <td>
-      <a href="https://ci.appveyor.com/project/ap--/python-seabreeze-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/ap--/python-seabreeze-feedstock/master.svg?label=Windows">
+      <a href="https://ci.appveyor.com/project/conda-forge/python-seabreeze-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/python-seabreeze-feedstock/master.svg?label=Windows">
       </a>
-    </td>
-  </tr>
-    
-  <tr>
-    <td>Azure</td>
-    <td>
-      <details>
-        <summary>
-          <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-            <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master">
-          </a>
-        </summary>
-        <table>
-          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_c_compilervs2008cxx_compilervs2008python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2008cxx_compilervs2008python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_c_compilervs2015cxx_compilervs2015python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_c_compilervs2015cxx_compilervs2015python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/ap--/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/ap--/feedstock-builds/_apis/build/status/python-seabreeze-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015cxx_compilervs2015python3.7" alt="variant">
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
     </td>
   </tr>
   <tr>
@@ -167,7 +86,7 @@ opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `poehlmann` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `poehlmann` channel.
-Note that all branches in the ap--/seabreeze-feedstock are
+Note that all branches in the conda-forge/seabreeze-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.

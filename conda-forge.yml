@@ -8,10 +8,13 @@ provider:
   linux_ppc64le: None
   linux_aarch64: None
 github:
-  user_or_org: ap--
+  user_or_org: conda-forge
 travis:
   secure:
     BINSTAR_TOKEN: CI3VJ5eX04s2ROxu4EgPMIAj4IJJmrMXDrg20lKxJ6/BSdqYZhT+I6PA3MT/Gx8IKYOWdCDAwp5Aoc9z2WAdlq7Hc/tcxe9rQZsiLrLxF7LXP4m8klqXTKdQRl/c0f5W79hFf7ODHII99oSz7N2gPPrP7ritN0260yK2AJZhAzHrZ+jg0GLq8kqgOuhy/iDAoWn8njU8kurP3sxa4cPhZdMQRUTalne7sNLxHAEKTzvzm2t8xbIW02uRM8W1C27yZI4QLgyXRjVKOC2wy5bzFPTLZzbx+h0iu4pStnH7I+I9GrBOYQcn5AGWvnztyB6wc2rhPJSqraE+Qair1i0lpE2QSSjCMm3Tg7rFEyTFJHlvpFb38kbKeXXVF/1wCHtalYrCBLfrviAOM2fBq9Pat6MxG5hdTHZl3bVMuo1DmP1TD40bDXFxCyvNoppGk+S7H/gb9TDx8KexFNpql3C/hRkbgGAD366/K8crKRXJXOXKj2fyL+KIAKFAtA3LWWjr6wHO1iVK2mgCUsr+m4syrJr7R5DQM1o5xDFqIfieIgAdCWRArmC70IS7H1CyQolU7aZM3OCHY64hsHM0jeMKL1AnH+OVWuf9aBwan60HkJQ8M4zA7oUr1ftvWIhf2yCiQvfOJkV7TuPLSdMuIYwpHRAgGX4NXC24y0FBiYwqDHU=
 appveyor:
   secure:
     BINSTAR_TOKEN: YnbXq9HfmiFKVfQlcv3P67ih3doPgjDAF6dAkM/LvFxMEC+8rD7SN/wrQma4z8dC
+azure:
+  enabled: False
+  force: False
