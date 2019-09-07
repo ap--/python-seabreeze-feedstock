@@ -10,8 +10,10 @@ source:
   sha256: f7c56793cc7dc71632e62bd9f8bb8f123c2741b8c509f13b5acd7a7bbc123108
 
 build:
+  script_env:
+    - INCLUDE  # [win and py2k]
+    - LIB  # [win and py2k]
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv"
 
 requirements:
   build:
