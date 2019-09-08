@@ -11,9 +11,6 @@ source:
 
 build:
   number: 0
-  script_env:
-    - INCLUDE  # [win]
-    - LIB  # [win]
 
 requirements:
   build:
